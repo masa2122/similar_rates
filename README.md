@@ -49,6 +49,7 @@ One request returns four candidates.
 ```
 pip install ExchangeComparison
 ```
+DAYS Decide how many days before the date you do and do not want to range from the date you did.
 default:
 money_kind = 'USDJPY',
 date = 'Today',
