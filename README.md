@@ -46,13 +46,16 @@ This code searches for a range of historical exchange rates that is similar to t
 
 One request returns four candidates.
 
+```
+pip install ExchangeComparison
+```
 default:
-money_kind = 'USDJPY'
-date = 'Today'
-days = 20
+money_kind = 'USDJPY',
+date = 'Today',
+days = 20,
 
 ```python
-import Exchange
+from ExchangeComparison import Exchange
 
 e = Exchange(money_kind='USDJPY')
 e.get_exchange(date='2010-01-04',days=20)
